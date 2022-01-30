@@ -114,9 +114,45 @@
 						</span>
 					</div>
 					<div
-						class="hover:text-white text-slate-300 text-2xl pl-10 cursor-pointer"
+						class="hover:text-white text-slate-300 text-2xl pl-10 cursor-pointer ease-linear transition-all duration-150"
+						v-on:click="toggleModal()"
 					>
 						<i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+					<div v-if="showModal" class="fixed inset-0 z-50 flex">
+						<div class="relative w-full">
+							<!--modal-->
+							<div
+								class="border-0 shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none"
+							>
+								<div
+									class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t"
+								>
+									<div class="flex flex-row">
+										<h3 class="text-3xl font-semibold">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</h3>
+										<input
+											type="search"
+											placeholder="SEARCH"
+											class="placeholder-slate-800 text-blueGray-600 relative bg-white text-sm border-0 outline-none focus:outline-none w-40 focus:ring-0 ml-4"
+										/>
+									</div>
+									<button
+										class="border-0 text-black float-right text-4xl leading-none opacity-80"
+										v-on:click="toggleModal()"
+									>
+										<span
+											class="text-black opacity-60 h-6 w-6 text-4xl block outline-none focus:outline-none"
+										>
+											×
+										</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black">
 					</div>
 				</div>
 			</div>
@@ -128,14 +164,19 @@
 <script>
 export default {
 	name: 'pink-navbar',
+	name: 'large-modal',
 	data() {
 		return {
 			showMenu: false,
+			showModal: false,
 		};
 	},
 	methods: {
 		toggleNavbar: function () {
 			this.showMenu = !this.showMenu;
+		},
+		toggleModal: function () {
+			this.showModal = !this.showModal;
 		},
 	},
 };
