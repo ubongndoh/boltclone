@@ -2782,7 +2782,7 @@
 		<!-- animating -->
 
 		<!-- scroll part -->
-		<div class="container">
+		<div class="overflow-hidden">
 			<div class="relative">
 				<!-- <div
 					class="fixed hidden xl-blog:block top-0 left-0 w-full h-full pointer-events-none z-1"

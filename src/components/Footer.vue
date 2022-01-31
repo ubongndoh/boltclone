@@ -42,7 +42,7 @@
 					</a>
 				</div>
 				<div
-					class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-rows-2 md:grid-rows-none justify-center items-center"
+					class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-rows-2 md:grid-rows-none justify-center items-center overflow-hidden"
 				>
 					<div class="text-white lg:text-xl ml-16 font-bold"
 						>Get Updates on Bolt!

@@ -65,7 +65,7 @@
 						</li>
 						<div
 							v-show="navDropDown"
-							class="py-2 mt-12 bg-slate-50 rounded-md shadow-xl lg:absolute lg:left-14 w-8/12 z-40"
+							class="py-2 mt-12 bg-slate-50 hidden xl:visible rounded-md shadow-xl lg:absolute lg:left-14 w-8/12 z-40"
 						>
 							<!-- dropdown -->
 							<div class="">
