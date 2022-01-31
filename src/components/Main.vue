@@ -2770,6 +2770,10 @@
 				</div>
 				<div
 					class="absolute inset-0 mx-auto flex items-center justify-center w-60"
+					data-aos="fade-up"
+					data-aos-anchor-placement="center-bottom"
+					data-aos-delay="100"
+					data-aos-duration="1000"
 				>
 					<img
 						class="home-hero-phone-img no-lazyload"
@@ -2886,7 +2890,12 @@
 							</a>
 						</div>
 						<div>
-							<div class="lg:w-9/12 w-full sm:justify-center sm:items-center">
+							<div
+								class="lg:w-9/12 w-full sm:justify-center sm:items-center"
+								data-aos="zoom-in-up"
+								data-aos-delay="1000"
+								data-aos-duration="10000"
+							>
 								<img
 									src="https://www.bolt.com/wp-content/uploads/2021/09/1.png"
 								/>
@@ -2929,7 +2938,12 @@
 								</div>
 							</a>
 						</div>
-						<div class="lg:w-1/2">
+						<div
+							class="lg:w-1/2"
+							data-aos="zoom-in-up"
+							data-aos-delay="1000"
+							data-aos-duration="10000"
+						>
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/2.png"
 							/>
@@ -2976,7 +2990,12 @@
 								</div>
 							</a>
 						</div>
-						<div class="lg:w-1/2">
+						<div
+							class="lg:w-1/2"
+							data-aos="fade-left"
+							data-aos-delay="1000"
+							data-aos-duration="10000"
+						>
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/3.png"
 							/>
@@ -3022,7 +3041,12 @@
 								</div>
 							</a>
 						</div>
-						<div class="lg:w-1/2">
+						<div
+							class="lg:w-1/2"
+							data-aos="fade-right"
+							data-aos-delay="1000"
+							data-aos-duration="10000"
+						>
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/4.png"
 							/>
@@ -3072,7 +3096,13 @@
 								</div>
 							</a>
 						</div>
-						<div class="lg:w-1/2">
+						<div
+							class="lg:w-1/2"
+							data-aos="zoom in"
+							data-aos-anchor-placement="top-center"
+							data-aos-delay="1000"
+							data-aos-duration="10000"
+						>
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/5.png"
 							/>

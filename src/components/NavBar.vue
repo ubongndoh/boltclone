@@ -55,8 +55,10 @@
 					class="lg:flex lg:flex-grow items-center"
 				>
 					<ul class="flex flex-col lg:flex-row list-none ml-8">
-						<li class="nav-item" @mouseover="showDropDown()">
+						<li class="nav-item">
 							<a
+								@mouseenter="showDropDown()"
+								@mouseleave="hideDropDown()"
 								class="px-3 py-2 flex items-center text-base capitalize font-bold leading-snug hover:text-white text-slate-300"
 								href="#"
 							>
@@ -65,6 +67,7 @@
 						</li>
 						<div
 							v-show="navDropDown"
+							v-if="closeDropDown"
 							class="py-2 mt-12 bg-slate-50 md:visible lg:visible xl:visible rounded-md shadow-xl lg:absolute lg:left-14 w-8/12 z-40"
 						>
 							<!-- dropdown -->
@@ -654,6 +657,8 @@
 
 						<li class="nav-item">
 							<a
+								@mouseenter="showDropDown()"
+								@mouseleave="hideDropDown()"
 								class="px-3 py-2 flex items-center text-base capitalize font-bold leading-snug hover:text-white text-slate-300"
 								href="#"
 							>
@@ -691,7 +696,7 @@
 							</a>
 						</li>
 					</ul>
-					<div class="relative flex flex-wrap items-stretch pl-10 w-60">
+					<div class="relative flex lg:flex-wrap lg:items-stretch pl-10 w-60">
 						<input
 							type="email"
 							placeholder="Get Bolt Updates"
@@ -765,6 +770,7 @@ export default {
 			showMenu: false,
 			showModal: false,
 			navDropDown: false,
+			closeDropDown: true,
 		};
 	},
 	methods: {
@@ -775,7 +781,10 @@ export default {
 			this.showModal = !this.showModal;
 		},
 		showDropDown: function () {
-			this.navDropDown = !this.navDropDown;
+			this.navDropDown = true;
+		},
+		hideDropDown: function () {
+			this.navDropDown = false;
 		},
 	},
 };
