@@ -8,7 +8,7 @@ import Main from './components/Main.vue';
 </script>
 
 <template>
-	<div>
+	<div class="w-full">
 		<NavBar />
 
 		<Main />
