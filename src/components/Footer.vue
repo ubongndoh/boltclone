@@ -67,7 +67,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid lg:grid-cols-5">
+			<div class="grid grid-cols-2 lg:grid-cols-5">
 				<!-- col-1 -->
 				<div class="px-4">
 					<h5 class="text-sm uppercase font-bold mb-2 text-white">Platform</h5>

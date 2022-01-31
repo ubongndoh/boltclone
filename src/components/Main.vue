@@ -2848,30 +2848,30 @@
 				</div> -->
 				<div class="relative home-anim-copy-wrap mx-auto pt-40 pb-40">
 					<!-- row 1 -->
-					<div class="flex flex-row">
+					<div class="flex lg:flex-row flex-col">
 						<div
-							class="ml-24 mr-36 xl:w-2/5 pb-24 md:pb-40 mb-40 xl:pb-96 xl:mb-0 relative home-anim-copy is-active"
+							class="lg:ml-24 ml-0 lg:mr-36 mr-0 xl:w-2/5 pb-24 md:pb-40 mb-40 xl:pb-96 xl:mb-0 relative home-anim-copy is-active lg:order-first order-last"
 							data-card="0"
 						>
 							<a href="#" class="flex flex-row home-anim-trigger">
-								<div class="flex flex-col mx-auto">
+								<div class="flex flex-col lg:mx-auto mx-4">
 									<div
-										class="mx-auto mt-10 mr-12 xl:mb-0 w-3 h-4 rounded-full bg-gray-300 hidden xl:inline-block"
+										class="mx-auto mt-10 mr-12 xl:mb-0 w-3 h-4 rounded-full bg-gray-300 lg:visible xl:inline-block hidden"
 									>
 									</div>
 									<div
-										class="border-solid border-l border-indigo-600 h-full mt-3 ml-1"
+										class="border-solid lg:border-l border-indigo-600 h-full mt-3 ml-1 lg:visible sm:border-l-0"
 									></div>
 								</div>
 
 								<div class="flex-1">
 									<h4
-										class="mt-10 mb-4 text-3xl md:text-lg font-bold leading-28 md:leading-32 text-white xl:max-w-285 mx-auto xl:mx-0"
+										class="mt-10 mb-4 text-3xl md:text-lg font-bold leading-28 md:leading-32 text-white xl:max-w-285 mx-auto"
 									>
 										Grow with Bolt
 									</h4>
 									<p
-										class="text-white text-lg md:text-sm opacity-90 font-light leading-normal"
+										class="text-white lg:text-lg md:text-sm opacity-90 font-light leading-normal"
 										>By the end of next year, the Bolt Network will include
 										one-third of all U.S. shoppers and expand globally. Why does
 										that scale matter? Because nine out of ten Bolt retailers
@@ -2879,14 +2879,14 @@
 										network growth lifts all retailers.</p
 									>
 									<button
-										class="w-full md:w-auto rounded pt-3 pb-3 px-6 text-white text-sm tracking-normal duration-200 font-medium block mt-4 md:text-lg transition bg-stone-800 hover:bg-stone-700"
+										class="w-full md:w-auto rounded lg:pt-3 lg:pb-3 lg:px-6 px-10 py-5 text-white text-sm tracking-normal duration-200 font-medium block mt-4 md:text-lg transition bg-stone-800 hover:bg-stone-700"
 										>Bolt Network</button
 									>
 								</div>
 							</a>
 						</div>
 						<div>
-							<div class="w-9/12">
+							<div class="lg:w-9/12 w-full sm:justify-center sm:items-center">
 								<img
 									src="https://www.bolt.com/wp-content/uploads/2021/09/1.png"
 								/>
@@ -2894,9 +2894,9 @@
 						</div>
 					</div>
 					<!-- row 2 -->
-					<div class="flex flex-row">
+					<div class="flex lg:flex-row flex-col">
 						<div
-							class="ml-24 mr-36 xl:w-2/5 pb-25 md:pb-40 mb-40 xl:pb-96 xl:mb-0 relative home-anim-copy"
+							class="ml-24 mr-36 xl:w-2/5 pb-25 md:pb-40 mb-40 xl:pb-96 xl:mb-0 relative home-anim-copy lg:order-first order-last"
 							data-card="1"
 						>
 							<a href="#" class="flex flex-row home-anim-trigger">
@@ -2929,16 +2929,16 @@
 								</div>
 							</a>
 						</div>
-						<div class="w-1/2">
+						<div class="lg:w-1/2">
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/2.png"
 							/>
 						</div>
 					</div>
 					<!-- row 3 -->
-					<div class="flex flex-row">
+					<div class="flex lg:flex-row flex-col">
 						<div
-							class="ml-24 mr-36 xl:w-2/5 pb-24 md:pb-40 mb-40 xl:pb-96 xl:mb-0 relative home-anim-copy"
+							class="ml-24 mr-36 xl:w-2/5 pb-24 md:pb-40 mb-40 xl:pb-96 xl:mb-0 relative home-anim-copy lg:order-first order-last"
 							data-card="2"
 						>
 							<a
@@ -2976,16 +2976,16 @@
 								</div>
 							</a>
 						</div>
-						<div class="w-1/2">
+						<div class="lg:w-1/2">
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/3.png"
 							/>
 						</div>
 					</div>
 					<!-- row 4 -->
-					<div class="flex flex-row">
+					<div class="flex lg:flex-row flex-col">
 						<div
-							class="ml-24 mr-36 xl:w-2/5 pb-20 md:pb-40 mb-40 xl:pb-340 xl:mb-0 relative home-anim-copy"
+							class="ml-24 mr-36 xl:w-2/5 pb-20 md:pb-40 mb-40 xl:pb-340 xl:mb-0 relative home-anim-copy lg:order-first order-last"
 							data-card="3"
 						>
 							<a
@@ -3022,16 +3022,16 @@
 								</div>
 							</a>
 						</div>
-						<div class="w-1/2">
+						<div class="lg:w-1/2">
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/4.png"
 							/>
 						</div>
 					</div>
 					<!-- row 5 -->
-					<div class="flex flex-row">
+					<div class="flex lg:flex-row flex-col">
 						<div
-							class="ml-24 mr-36 xl:w-2/5 pb-20 md:pb-40 mb-40 xl:pb-340 xl:mb-0 relative home-anim-copy"
+							class="ml-24 mr-36 xl:w-2/5 pb-20 md:pb-40 mb-40 xl:pb-340 xl:mb-0 relative home-anim-copy lg:order-first order-last"
 							data-card="4"
 						>
 							<a
@@ -3072,7 +3072,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="w-1/2">
+						<div class="lg:w-1/2">
 							<img
 								src="https://www.bolt.com/wp-content/uploads/2021/09/5.png"
 							/>
@@ -3086,9 +3086,9 @@
 
 		<!-- carousel card -->
 		<div
-			class="flex bg-white text-sm px-35 font-bold py-2 px-4 rounded w-9/12 mx-auto mt-80"
+			class="flex bg-white text-sm font-bold py-2 px-4 rounded w-9/12 mx-auto mt-80"
 		>
-			<div class="w-full grid grid-cols-2 p-10">
+			<div class="w-full lg:grid lg:grid-cols-2 flex flex-col p-10">
 				<div class="grid grid-cols-3">
 					<div>
 						<img
@@ -3111,7 +3111,7 @@
 							alt=""
 							src="https://www.bolt.com/wp-content/uploads/2021/02/4.jpg"
 					/></div>
-					<div class="w-20 mx-auto"
+					<div class="lg:w-20 mx-auto w-12"
 						><img
 							class=""
 							alt=""
@@ -3151,14 +3151,15 @@
 						><img
 							alt=""
 							src="https://www.bolt.com/wp-content/uploads/2021/02/12.jpg"
-					/></div>
+						/>
+					</div>
 				</div>
 				<div> </div>
 			</div>
 		</div>
 		<!-- demo -->
 		<div class="text-center pb-32">
-			<h2 class="text-white text-4xl pb-10 pt-16"
+			<h2 class="text-white lg:text-4xl text-xl font-extrabold pb-10 pt-16"
 				>Want to watch Bolt in action?</h2
 			>
 			<a
